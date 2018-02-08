@@ -125,27 +125,27 @@ $(document).ready(function(){
     });
 	
 	
-	// GOOGLE MAPS
-	$('#my_map').gmap3({
-		 map: {
-			options: {
-			  maxZoom: 14 ,
-			  scrollwheel: false,
-			}  
-		 },
-		 
-		 marker:{
-			latLng:[41.5574777,-87.3026693],
-			options: {
-			 icon: new google.maps.MarkerImage(
-			   "img/map.png",
-			   new google.maps.Size(30, 38, "px", "px")
-			 )
-			}
-		 }
-		},"autofit" );
-	$("#my_map").width("100%").height("460px").gmap3();
-	$('#my_map').show().gmap3().css('border-top', '1px solid #111111').css('border-bottom', '1px solid #111111');
+	// // GOOGLE MAPS
+	// $('#my_map').gmap3({
+	// 	 map: {
+	// 		options: {
+	// 		  maxZoom: 14 ,
+	// 		  scrollwheel: false,
+	// 		}
+	// 	 },
+	//
+	// 	 marker:{
+	// 		latLng:[41.5574777,-87.3026693],
+	// 		options: {
+	// 		 icon: new google.maps.MarkerImage(
+	// 		   "img/map.png",
+	// 		   new google.maps.Size(30, 38, "px", "px")
+	// 		 )
+	// 		}
+	// 	 }
+	// 	},"autofit" );
+	// $("#my_map").width("100%").height("460px").gmap3();
+	// $('#my_map').show().gmap3().css('border-top', '1px solid #111111').css('border-bottom', '1px solid #111111');
  
 
  	/* Portfolio Isotop */
