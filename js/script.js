@@ -1,5 +1,5 @@
 /* JS for Plugins */
-
+console.log('ping!')
 $(document).ready(function(){
 
 	 //Page Loader
