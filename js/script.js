@@ -9,6 +9,11 @@ $(document).ready(function(){
 	}); 
 
 
+	$("#rss-feeds").rss("http://mednovelty.ru/rss/",
+          {
+            entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImage}{shortBodyPlain}</li>'
+          });
+
 
 	/* Link Transition */
 	$("a.linkz_transition").click(function(event){
