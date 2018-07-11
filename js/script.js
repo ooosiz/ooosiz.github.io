@@ -11,10 +11,11 @@ $(document).ready(function(){
 
 	$("#rss-feeds").rss("http://mednovelty.ru/rss/",
           {
+            limit: 10,
             dateFormat: 'LL',
             dateLocale: 'ru',
-          	//entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImage}{bodyPlain}</li>'
-          	entryTemplate:'<li><a href="{url}">[{date}] {title}</a><br/>{teaserImage}{bodyPlain}</li>'
+          	entryTemplate:'<li class="list-group-item"><h4><a href="{url}"><b>{date}</b> {title}</a></h4><br/><p class="list-group-item-text">{teaserImage}{bodyPlain}</p></li>',
+          	layoutTemplate:'<ul class="list-group">{entries}</ul>'
           });
 
 
