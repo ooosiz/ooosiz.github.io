@@ -11,7 +11,10 @@ $(document).ready(function(){
 
 	$("#rss-feeds").rss("http://mednovelty.ru/rss/",
           {
-            entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImage}{shortBodyPlain}</li>'
+            dateFormat: 'LL',
+            dateLocale: 'ru',
+          	//entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImage}{bodyPlain}</li>'
+          	entryTemplate:'<li><a href="{url}">[{date}] {title}</a><br/>{teaserImage}{bodyPlain}</li>'
           });
 
 
