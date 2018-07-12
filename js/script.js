@@ -9,7 +9,7 @@ $(document).ready(function(){
 	}); 
 
 
-	$("#rss-feeds").rss("http://mednovelty.ru/rss/",
+	$("#rss-feeds").rss("https://www.rosminzdrav.ru/news.atom",
           {
             limit: 10,
             dateFormat: 'LL',
