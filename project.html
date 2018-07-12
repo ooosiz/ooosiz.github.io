@@ -50,26 +50,28 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">ООО Системный интегратор здоровья</a>
+                    <a class="navbar-brand" href="index.html">ООО Системный интегратор здоровья</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#interests">НАУЧНЫЕ ИНТЕРЕСЫ</a></li>
+                        <li><a href="index.html#interests">НАУЧНЫЕ ИНТЕРЕСЫ</a></li>
                         <li class="dropdown">
-                            <a href="#project" class="dropdown-toggle" data-toggle="dropdown">О ПРОЕКТЕ <b
+                            <a href="index.html#project" class="dropdown-toggle" data-toggle="dropdown">О ПРОЕКТЕ <b
                                     class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#project">О ПРОЕКТЕ</a></li>
-                                <li><a href="#innoprom">ИННОПРОМ 2017</a></li>
-                                <li><a href="#presentation">ПРЕЗЕНТАЦИЯ</a></li>
-                                <li><a href="#medtests">МЕДИЦИНСКИЕ ИСПЫТАНИЯ</a></li>
-                                <li><a href="#comptests">ТЕСТИРОВАНИЕ КОМПЬЮТЕР-АССИСТИРОВАННОЙ ДИАГНОСТИКИ</a></li>
-                                <li><a href="#registrations">СВИДЕТЕЛЬСТВА НА ПП</a></li>
+                                <li><a href="index.html#project">О ПРОЕКТЕ</a></li>
+
+                                <li><a href="index.html#presentation">ПРЕЗЕНТАЦИЯ</a></li>
+                                <li><a href="index.html#medtests">МЕДИЦИНСКИЕ ИСПЫТАНИЯ</a></li>
+                                <li><a href="index.html#comptests">ТЕСТИРОВАНИЕ программно-диагностического комплекса</a></li>
+                                <li><a href="index.html#registrations">СВИДЕТЕЛЬСТВА НА ПП</a></li>
                             </ul>
                         </li>
-                        <li><a href="#contact">КОНТАКТЫ</a></li>
+                        <li><a href="index.html#innoprom">ИННОПРОМ</a></li>
+                        <li><a href="index.html#news">НОВОСТИ</a></li>
+                        <li><a href="index.html#footer">КОНТАКТЫ</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container -->
@@ -78,9 +80,10 @@
 </div>
 
 
+
 <!-- Project 1 Section
     ========================================================================= -->
-<section id="projecе_extended" class="container">
+<section id="project_extended" class="container">
     <div class="big_title_left">
         <div class="big_title_txt_left montserrat_font">Содержание проекта</div>
         <div class="big_title_txt_separ background_color"></div>
@@ -215,7 +218,7 @@
 
 <!-- Footer
     ========================================================================= -->
-<footer>
+<footer id="footer">
     <div class="footer4">
         <div class="container text-center">
             <p>Компания, обладающая правами на интеллектуальную собственность и промышленный образец, в рамках которой
@@ -223,38 +226,11 @@
             <div class="big_title_txt montserrat_font">ООО Системный интегратор здоровья</div>
             <div class="text_und_big_title">малое инновационное предприятие Уральского Федерального университета</div>
             <div class="big_title_txt_separ background_color"></div>
-            <p>Почтовый адрес: 620002, г.Екатеринбург, ул.Мира 21 (Физико-технологический институт УрФУ), каб.204.</p>
+            <p>Почтовый адрес: 620102 Россия, г.Екатеринбург, ул.Гурзуфская, д.45, к.26</p>
+            <p>Телефон: 8(343)2-901-901</p>
         </div>
     </div>
 </footer>
-
-
-<script type="text/javascript">
-    /* Share Functions */
-    function twitterSharer() {
-        return window.open("http://twitter.com/intent/tweet?text=" + jQuery(".title-content h2").text() + " " + window.location, "twitterWindow", "width=650,height=350"), !1
-    }
-
-    function facebookSharer() {
-        return window.open("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(location.href), "facebookWindow", "width=650,height=350"), !1
-    }
-
-    function pinterestSharer() {
-        return window.open("http://pinterest.com/pin/create/bookmarklet/?media=" + jQuery(".begin-content img").first().attr("src") + "&description=" + jQuery(".title-content h2").text() + " " + encodeURIComponent(location.href), "pinterestWindow", "width=750,height=430, resizable=1"), !1
-    }
-
-    function googleSharer() {
-        return window.open("https://plus.google.com/share?url=" + encodeURIComponent(location.href), "googleWindow", "width=500,height=500"), !1
-    }
-
-    function deliciousSharer() {
-        return window.open("http://delicious.com/save?url=" + encodeURIComponent(location.href) + "?title=" + jQuery(".title-content h2").text(), "deliciousWindow", "width=550,height=550, resizable=1"), !1
-    }
-
-    function linkedinSharer() {
-        return window.open("http://www.linkedin.com/shareArticle?mini=true&url=" + encodeURIComponent(location.href) + "$title=" + jQuery(".title-content h2").text(), "linkedinWindow", "width=650,height=450, resizable=1"), !1
-    }
-</script>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -320,12 +296,20 @@
 <!-- Easy Pie Chart -->
 <script src="js/jquery.easy-pie-chart.js"></script>
 
-<!-- GMAP3 Plugin for JQuery -->
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
-<script src="js/gmap3.min.js"></script>
+<!--&lt;!&ndash; GMAP3 Plugin for JQuery &ndash;&gt;-->
+<!--<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>-->
+<!--<script src="js/gmap3.min.js"></script>-->
+
+<!-- jQuery code for Masonry Blog -->
+<script src="js/script_masonryb.js"></script>
+
+<script src="js/moment-with-locales.min.js"></script>
+<script src="js/jquery.rss.min.js"></script>
+
 
 <!-- jQuery code for plugins -->
 <script src="js/script.js"></script>
+
 
 
 </body>
