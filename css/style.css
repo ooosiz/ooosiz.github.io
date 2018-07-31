@@ -152,7 +152,7 @@ button{
 }
 
 .navsticky .nav>li>a{
-	padding: 10px 25px;
+	padding: 10px 5px;
 	line-height: 44px;
 	background-image: none;
 }
@@ -4398,3 +4398,4 @@ div.jp-volume-bar-value {
 .carousel-control.left, .carousel-control.right {
     background-image: none
 }
+
