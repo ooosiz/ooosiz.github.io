@@ -4400,4 +4400,5 @@ div.jp-volume-bar-value {
 }
 #logo-urfu:hover, #logo-falsie:hover {
     opacity: 0.5;
+    border: 1px dashed black;
 }
